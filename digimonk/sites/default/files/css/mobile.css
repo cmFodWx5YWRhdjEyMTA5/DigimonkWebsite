@@ -1,0 +1,489 @@
+/*------------------------------------------------------------------
+[Table of contents]
+This file include css code conrespond for table and mobile device
+
+- #Large Screen: 						>= 1367px
+- #Only Desktop: 						1366px >= screen >= 1025
+- #Desktop, Tablet Landscape: 			1024px >= screen
+- #Only Laptop, Tablet Landscape:		1024px >= screen >= 991px
+- #Tablet:								991px >= screen
+- #Tablet Portrait						768px >= screen
+- #Only Tablet							768px >= screen >= 700px
+- #Mobile Lanscape						700px >= screen
+- #Mobile Portrait						480px >= screen
+- #Small Moblie							320px >= screen
+-------------------------------------------------------------------*/
+
+/* #Large Screen */
+@media screen and (min-width: 1367px) {
+}
+
+/* #Desktop, Tablet Landscape */
+@media screen and (max-width: 1024px) {
+}
+
+/* #Laptop, Tablet Portrait */
+@media screen and (max-width: 1024px) and (min-width: 991px) {
+}
+
+/* #Tablet */
+/* #Tablet Portrait */
+@media screen and (max-width: 768px) {
+}
+
+/* #Only Tablet */
+/* #Mobile Lanscape */
+@media screen and (max-width: 700px) {
+}
+
+/* #Mobile */
+@media screen and (max-width: 480px) {
+.banner li {background: white;}
+.banner .overlay img {width: 100%;	height: 250px;}
+.banner-text {margin: 0 0px 0px 0px;}
+.banner-text, .bx-wrapper .bx-controls {width: 65% !important;}
+.banner .bx-wrapper .bx-controls {bottom: 25px;	left: -110px;}
+.our-clients .view-content ul li:nth-child(-n+16), .connected-tv .view-content ul li:nth-child(-n+16) {display: inline-block;}
+.our-clients .view-content ul li, .connected-tv .view-content ul li {width: 25%; display: none;}
+.menu-item {width: 100%;	text-align: left;}
+.footer__mid .wrapper {padding: 0px;}
+.footer-menus .f-heading {padding:15px 20px;}
+.footer-menus nav.visible .menu {
+	padding: 5px 35px;
+}
+.social {
+	padding: 0px 20px;
+}
+.copyright {
+	padding: 0 20px;
+	margin: 0;
+}
+.banner {
+	height: auto;
+}
+.breadcrumb ol {
+	margin-left: 0px;
+}
+.digital .views-row .col-md-12 .content-text h3 {
+	font-size: 22px;
+	padding: 10px 0px 0px 0px;
+	margin: 0 0 15px 0;
+}
+.digital .views-row .content-text {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.breadcrumb {
+	background: #fff;
+	padding: 10px 0;
+	bottom: 0;
+	border-radius: 0;
+}
+.breadcrumb li:before {
+	padding: 0 5px;
+}
+.ih-item.circle {
+	margin: 50px auto 0 auto;
+	left: 0;
+}
+.col-md-12.galldesk-new ul {
+	padding: 0;
+}
+.col-md-12.galldesk-new ul li a {
+	height: 13em;
+	width: 17em;
+}
+.item-list .gallery img {
+	width: 100% !important;
+	height:100%;
+}
+.fun .item-list ul li.gallery {
+	height: 230px;
+}
+.col-md-12.galldesk-new ul li a:hover .hover-layer {
+	display: none;
+}
+.col-md-12.galldesk-new ul li a:hover p {
+	font-size: 16px !important;
+}
+.col-md-12.galldesk-new ul li a:hover {
+	height: 11em;
+	width: 15em;
+}
+.banner-text2 {
+	width: 100%;
+	margin: 0;
+}
+.banner-text2 h1 {
+	font-size: 28px;
+}
+.tab button:nth-child(1) {
+	width: 96%;
+	border-radius: 40px;
+	font-size: 11px;
+	padding: 15px 10px;
+}
+.tab {
+	width: 50%;
+	float: left;
+}
+}
+
+
+@media screen and (max-width: 414px) {
+
+.banner {
+    margin-bottom: 0px;
+}
+
+#content p, #content li {
+    margin-top: 30px;
+}
+
+.btn.pink.tech {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.newsletter {
+    padding-right:75px;
+}
+
+
+.banner .banner-text {
+    margin-top: -30px;
+}
+
+.banner .banner-text h1, .banner .banner-text .headingB {
+    font-size: 16px;
+}
+
+.banner .banner-text h2 {
+    font-size: 11px;
+display: none;}
+
+.banner .overlay img {
+    height: auto;
+}
+
+.banner .bx-wrapper .bx-controls {
+    bottom: 80px;
+    left: -135px;
+}
+
+
+.breadcrumb {
+    display: none;
+}
+
+
+.wrap, .page-node-type-services .node__content .field--name-body, .node-14 .node__content .field--name-body, .node-31 .node__content .field--name-body, .page_middle .outer {
+  text-align: justify;}
+
+
+
+
+.heading {
+     font-size:18px;
+    text-align: center;
+   margin-right: 0%;}
+    
+
+
+
+.digital .views-row .col-md-12 .content-text h3 {
+    text-align: inherit;
+}
+
+
+
+.banner .banner-text h1{
+    margin-top: 50px;
+}
+
+.counter ul {
+    margin-top: 35px;
+}
+
+.banner-text2 h1 {
+    font-size: 16px;
+}
+
+
+.tab {
+    width: 100%;
+    float: left;
+}
+
+.contact-blocks .node__content strong {
+    font-size: 20px;
+    padding: 43px 0px 10px 0px;
+}
+
+.tab button:nth-child(1) {
+    margin-bottom: 20px;
+    padding: 6px;
+    font-size: 10px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+.banner {
+    margin-bottom: 0px;
+}
+
+.newsletter {
+    padding-right:75px;
+}
+
+
+.btn.pink.tech {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#content p, #content li {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+.banner .banner-text {
+    margin-top: -30px;
+}
+
+.banner .banner-text h1, .banner .banner-text .headingB {
+    font-size: 16px;
+}
+
+.banner .banner-text h2 {
+    font-size: 11px;
+width: 85%;}
+
+.banner .overlay img {
+    height: auto;
+}
+
+.banner .bx-wrapper .bx-controls {
+    bottom: 80px;
+    left: -135px;
+}
+
+
+.breadcrumb {
+    display: none;
+}
+
+
+.wrap, .page-node-type-services .node__content .field--name-body, .node-14 .node__content .field--name-body, .node-31 .node__content .field--name-body, .page_middle .outer {
+  text-align: justify;}
+
+
+
+
+.heading {
+    font-size:20px;
+    text-align: center;
+margin-top: 14px;}
+
+.digital .views-row .col-md-12 .content-text h3 {
+    text-align: inherit;
+}
+
+
+
+.banner .banner-text h1{
+    margin-top: 50px;
+}
+
+.counter ul {
+    margin-top: 35px;
+}
+
+.banner-text2 h1 {
+    font-size: 16px;
+}
+
+
+.tab {
+    width: 100%;
+    float: left;
+}
+
+.contact-blocks .node__content strong {
+    font-size: 20px;
+    padding: 43px 0px 10px 0px;
+}
+
+.tab button:nth-child(1) {
+    margin-bottom: 20px;
+    padding: 6px;
+    font-size: 10px;
+}
+
+
+
+
+}
+
+
+
+
+ #Small Mobile 
+@media screen and (max-width: 360px) {
+
+.banner {
+    margin-bottom: 0px;
+}
+
+.newsletter {
+    padding-right:75px;
+}
+
+
+.talk-expert .overlay {
+    margin-top: 35px;
+}
+
+
+.btn.pink.tech {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#content p, #content li {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+.banner .banner-text {
+    margin-top: -30px;
+}
+
+.banner .banner-text h1, .banner .banner-text .headingB {
+    font-size: 16px;
+width: 100%;}
+
+.banner .banner-text h2 {
+    font-size: 11px;
+width: 85%;display: none;}
+
+.banner .overlay img {
+    height: auto;
+}
+
+.banner .bx-wrapper .bx-controls {
+    bottom: 80px;
+    left: -135px;
+}
+
+
+.breadcrumb {
+    display: none;
+}
+
+
+.wrap, .page-node-type-services .node__content .field--name-body, .node-14 .node__content .field--name-body, .node-31 .node__content .field--name-body, .page_middle .outer {
+  text-align: justify;}
+
+
+
+
+.heading {
+    font-size:14px;
+    text-align: center;
+margin-top: 14px;margin-right: 0%;}
+
+.digital .views-row .col-md-12 .content-text h3 {
+    text-align: inherit;
+}
+
+
+
+.banner .banner-text h1{
+    margin-top: 50px;
+}
+
+.counter ul {
+    margin-top: 35px;
+}
+
+.banner-text2 h1 {
+    font-size: 16px;
+}
+
+
+.tab {
+    width: 100%;
+    float: left;
+}
+
+.contact-blocks .node__content strong {
+    font-size: 20px;
+    padding: 43px 0px 10px 0px;
+}
+
+.tab button:nth-child(1) {
+    margin-bottom: 20px;
+    padding: 6px;
+    font-size: 10px;
+}
+
+
+
+}
+
+
+
+ #Small Mobile 
+@media screen and (max-width: 320px) {
+    
+.tab button:nth-child(1) {
+    margin-bottom: 20px;
+padding: 6px;font-size: 10px;}  
+
+
+.layout-main .flik-content.new-flik-content .time-heading.mainhead {
+    font-size: 23px;
+}
+
+
+#content p, #content li {
+    font-size: 14px !important;
+    margin-top: 30px;
+}
+
+
+
+
+
+.banner .banner-text h2 {
+    font-size: 12px;}
+
+.banner .overlay img {
+    width: 100%;
+    height: 190px;
+}
+
+
+.btn.pink.tech {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+    
+}

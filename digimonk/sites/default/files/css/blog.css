@@ -1,0 +1,284 @@
+/*blog css start*/
+
+
+
+.cta-100 {
+  margin-top: 100px;
+  padding-left: 0%;
+  padding-top: 0%;
+}
+.col-md-4{
+    padding-bottom:20px;
+}
+
+.white {
+  color: #fff !important;
+}
+.mt{float: left;margin-top: -20px;padding-top: 20px;}
+.bg-blue-ui {
+  background-color: #fff !important;
+}
+figure img{width:300px;}
+
+#blogCarousel {
+  padding-bottom: 100px;
+}
+
+.blog .carousel-indicators {
+ 
+  top: -50px;
+  height: 50%;
+}
+
+
+/* The colour of the indicators */
+
+.blog .carousel-indicators li {
+  background: #708198;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.blog .carousel-indicators .active {
+  background: #0fc9af;
+}
+
+
+
+
+.item-carousel-blog-block {
+  outline: medium none;
+  padding: 15px;
+}
+
+.item-box-blog {
+  border: 1px solid #dadada;
+  text-align: center;
+  z-index: 4;
+  padding: 20px;
+}
+
+.item-box-blog-image {
+  position: relative;
+}
+
+.item-box-blog-image figure img {
+  width: 100%;
+      height: 200px;
+}
+
+.item-box-blog-date {
+  position: absolute;
+  z-index: 5;
+  padding: 4px 20px;
+  top: -20px;
+  right: 8px;
+  background-color: #41cb52;
+}
+
+.item-box-blog-date span {
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.item-box-blog-date span.mon {
+  font-size: 18px;
+}
+
+.item-box-blog-date span.day {
+  font-size: 16px;
+}
+
+.item-box-blog-body {
+  padding: 10px;
+}
+
+.item-heading-blog a h5 {
+  margin: 0;
+  line-height: 1;
+  text-decoration:none;
+  transition: color 0.3s;
+}
+
+.item-box-blog-heading a {
+    text-decoration: none;
+}
+
+.item-box-blog-data p {
+  font-size: 13px;
+}
+
+.item-box-blog-data p i {
+  font-size: 12px;
+}
+
+.item-box-blog-text {
+  height: 168px;
+  overflow: hidden;
+text-align: justify;}
+
+.mt-10 {
+  float: left;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+.btn.bg-blue-ui.white.read {
+  cursor: pointer;
+  padding: 4px 20px;
+  float: left;
+  margin-top: 10px;
+margin-left: 87px;}
+
+.btn.bg-blue-ui.white.read:hover {
+ 
+}
+
+a.btn.bg-blue-ui.white.read :hover {
+    color: #fff;
+    background-color: red;
+}
+
+
+.blog_desig_gm {
+    height: 409px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.blog-recent-post {
+    padding: 28 28px;
+    border: 1px solid#d0e2f4;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+
+.blog-recent-post h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c324b;
+    margin: 0 0 30px;
+}
+
+.blog-recent-post-content h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c324b;
+    margin: 0;
+}
+
+#dgm {
+    margin-top: -40px;
+}
+
+.post-meta {
+    padding: 30px;
+    font-size: 12px;
+    color: #8ca0b4;
+}
+
+.recent_blog_dg {
+    width: 100%;
+    height: 109px;
+    object-fit: contain;
+}
+
+.blog-recent-post-image-1 {
+    margin-bottom: 40px;
+}
+
+
+.single-blog-box {
+    border: 1px solid #d0e2f4;
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    overflow: hidden;
+}
+
+.single-blog-box:hover {
+    box-shadow: 0px 25px 57px 3px rgba(0, 27, 103, 0.15);
+    border-color: #fff;
+}
+
+.latest-blog-area .single-blog-box {
+    margin-bottom: 50px;
+}
+
+
+.blog-box-content p {
+    padding: 0 25px;
+    margin: 0 0 30px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    color: #535e72;
+}
+
+
+.blog-heading h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+    color: #2c324b;
+    min-height: 70px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.blog-details.latest-blog-area .blog-heading h2 {
+    font-size: 25px;
+}
+
+
+.blog-heading {
+    padding: 30px;
+    padding-top: 0;
+}
+
+
+.button3 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button3 {
+  background-color: white; 
+  color: #e40001; 
+  border: 1px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #e40001;
+  color: white;
+}
+
+
+#short_desc_desg
+{
+  margin-top: -44px;
+  padding: 25px;
+}
+
+.blogs_heading{
+
+  height: 30px;
+}
+/*blog css end*/
