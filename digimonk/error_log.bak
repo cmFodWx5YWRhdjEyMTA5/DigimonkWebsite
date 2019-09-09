@@ -1,4 +1,4 @@
-[26-Jul-2019 05:45:39 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/digiweb/public_html/live/digimonk/admin/connection.php on line 
+[26-Jul-2019 05:45:39 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/digiweb/public_html/live/digimonk/admin/connection.php on line 3
 [26-Jul-2019 11:15:39 Asia/kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/digiweb/public_html/live/digimonk/include/header.php on line 44
 [26-Jul-2019 11:15:39 Asia/kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/digiweb/public_html/live/digimonk/include/header.php on line 45
 [26-Jul-2019 11:15:39 Asia/kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/digiweb/public_html/live/digimonk/include/header.php on line 425
